@@ -19,7 +19,7 @@ const Login = ({ onLogin }) => {
         e.preventDefault();
 
         // Send a POST request to the login endpoint
-        const response = await fetch('http://localhost:5003/api/user/login', {
+        const response = await fetch('http://stores-apicont.onrender.com:5003/api/user/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
